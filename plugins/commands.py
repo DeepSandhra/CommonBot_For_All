@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [
             [
                 
-            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/punjabi_funn'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/Movies_hunt_2022'),
             ],
             [
                 InlineKeyboardButton('🆘Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -46,8 +46,8 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📥', url='https://t.me/allMoviesavailable_2022'),
-            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/punjabi_funn'),
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📥', url='https://t.me/Movies_DATABASE_2022'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/Movies_hunt_2022'),
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -92,8 +92,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📥', url='https://t.me/allMoviesavailable_2022'),
-            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/punjabi_funn'),
+            InlineKeyboardButton('𝙼𝙾𝚅𝙸𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 📥', url='https://t.me/Movies_DATABASE_2022'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/Movies_hunt_2022'),
             ],[
             InlineKeyboardButton('🆘 Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')

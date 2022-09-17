@@ -1,4 +1,4 @@
-# Kanged From @TechnoMindz Made By Ravinandan @TechnoMindzyt
+# Kanged From @Movies_hunt_2022 Made By Ravinandan @movi2x
 import asyncio
 import re
 import ast
@@ -408,7 +408,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
             
-            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/punjabi_funn'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/Movies_hunt_2022'),
         ], [
             InlineKeyboardButton('ℹ️ Help', callback_data='help'),
             InlineKeyboardButton('😊 About', callback_data='about')
@@ -429,14 +429,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('🏠Home...')
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('Manual Filter', callback_data='manuelfilter'),
-            InlineKeyboardButton('Auto Filter', callback_data='autofilter')
+            InlineKeyboardButton('📑 ᴍᴀɴᴜᴀʟ ꜰɪʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('📡 ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ', callback_data='autofilter')
         ], [
-            InlineKeyboardButton('Connection', callback_data='coct'),
-            InlineKeyboardButton('Extra Mods', callback_data='extra')
+            InlineKeyboardButton('⚡ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ', callback_data='coct'),
+            InlineKeyboardButton('ℹ️ ᴇxᴛʀᴀ ᴍᴏᴅᴇꜱ', callback_data='extra')
         ], [
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('🏠 Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('📊 Sᴛᴀᴛᴜs', callback_data='stats')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         r=await query.message.reply_text('▣▣▢▢▢▢')
@@ -454,7 +454,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 🎬', url='https://t.me/punjabi_funn'),
+            InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ʀᴇQᴜᴇꜱᴛ 🎬', url='https://t.me/Movies_DATABASE_2022'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
